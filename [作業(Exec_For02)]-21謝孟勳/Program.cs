@@ -11,11 +11,19 @@ namespace _作業_Exec_For02___21謝孟勳
     {
         static void Main(string[] args)
         {
-            for (int i = 0; i < 5; i++)
+            for (int i = 1; i <= 3; i++)
             {
-                Console.Write(i);
+                for (int j = 0; j <= 2 - i; j++)
+                {
+                    Console.Write(" ");
+                }
+                for (int k = 0; k <= (i-1)*2; k++)
+                {
+                    Console.Write("*");
+                }
                 Console.WriteLine();
             }
+            Console.WriteLine();
         }
     }
 }
