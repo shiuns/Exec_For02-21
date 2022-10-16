@@ -23,6 +23,7 @@ namespace _作業_Exec_For02___21謝孟勳
                 }
                 Console.WriteLine();
             }
+
         }
     }
 }
