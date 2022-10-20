@@ -11,9 +11,9 @@ namespace _作業_Exec_For02___21謝孟勳
     {
         static void Main(string[] args)
         {
-            for (int i = 1; i <= 3; i++)
+            for (int i = 1; i <= 5; i++)
             {
-                for (int j = 0; j <= 2 - i; j++)
+                for (int j = 1; j <= 5 - i; j++)
                 {
                     Console.Write(" ");
                 }
